@@ -1,0 +1,11 @@
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+}
+
+hr{
+  width: "50%";
+  color: grey;
+  height: "40%";
+}
