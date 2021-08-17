@@ -3,7 +3,7 @@ title: "Data Analysis Report Template"
 author: "clinton Moshe Mwachia"
 date: "8/17/2021"
 output: 
-  pdf_document:
+  bookdown::pdf_document2:
     toc: true
 toc-title: "Table Of Contents"
 ---
@@ -14,11 +14,31 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Introduction
 
+This introduction of a data analysis report can include: -
+
+1. Summary of the analysis.
+2. The aim of the analysis.
+3. Background of the analysis.
+4. The summary of the results and its conclusions.
+5. The problem statement.
+
 ```{r introduction}
 
 ```
 
+## Research Questions.
+
+This section describes the questions that will guide you in the type of visualizations you can perfrom, statistical tests you can do, the tables and summaries you can present.
+
+The questions are a reflection of the main aim of the analysis.
+
+1. How is **BMI** affected by body **weight**?.
+2. How does **Salary** change with **Gender**?.
+3. How is **Security** affected by **Regions**?
+
 ## The Data
+
+In this section you will tell us the source of the data and how it will help us to answer the questions. The variables of the data and their descriptions will also be described in this section including their data type and summary statistics.
 
 ```{r data}
 
