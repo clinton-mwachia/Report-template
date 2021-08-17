@@ -23,7 +23,7 @@ This introduction of a data analysis report can include: -
 5. The problem statement.
 
 ```{r introduction}
-
+# your code goes here
 ```
 
 ## Research Questions.
@@ -40,8 +40,12 @@ The questions are a reflection of the main aim of the analysis.
 
 In this section you will tell us the source of the data and how it will help us to answer the questions. The variables of the data and their descriptions will also be described in this section including their data type and summary statistics.
 
-```{r data}
+To include the link to the dataset, do it as follows.
 
+The data set used was obtained from ***[mydata](https://github.com/clinton-mwachia/Report-template)***.
+
+```{r data}
+# your code goes here
 ```
 
 ## Data Analysis
