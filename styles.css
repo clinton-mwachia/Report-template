@@ -9,3 +9,7 @@ hr{
   color: grey;
   height: "40%";
 }
+
+img {
+  width: 100%;
+}
