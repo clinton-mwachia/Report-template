@@ -22,13 +22,9 @@ This introduction of a data analysis report can include: -
 4. The summary of the results and its conclusions.
 5. The problem statement.
 
-```{r introduction}
-# your code goes here
-```
-
 ## Research Questions.
 
-This section describes the questions that will guide you in the type of visualizations you can perfrom, statistical tests you can do, the tables and summaries you can present.
+This section describes the questions that will guide you in the type of visualizations you can perform, statistical tests you can do, the tables and summaries you can present.
 
 The questions are a reflection of the main aim of the analysis.
 
@@ -36,16 +32,39 @@ The questions are a reflection of the main aim of the analysis.
 2. How does **Salary** change with **Gender**?.
 3. How is **Security** affected by **Regions**?
 
+## The Libraries
+
+1. The libraries can be loaded at each **chunk** or all in a single **chunk** at the beginning of the chunk.
+2. In case the library is not installed: -
+    * Load the library and it will give you the option of installing.
+    * Install the library using the **Install packages** pop up window from the packages tab.
+    * Install manually using **install.packages('package')**.
+    
+```{r lib, message=FALSE, warning=FALSE}
+# load your libraries
+library(tidyverse)
+```
+
+
 ## The Data
 
 In this section you will tell us the source of the data and how it will help us to answer the questions. The variables of the data and their descriptions will also be described in this section including their data type and summary statistics.
 
-To include the link to the dataset, do it as follows.
+To include the link to the data set, do it as follows.
 
 The data set used was obtained from ***[mydata](https://github.com/clinton-mwachia/Report-template)***.
 
+To load different data formats, you will need a given library for different data formats. Use the following guide for a given data format: -
+
+1. **.csv** files, you can use **read_csv()/read_csv2()** from the **tidyverse** library.
+2. **.tsv** files, you can use **read_tsv()** from the **tidyverse** library.
+3. **.txt** files, you can use **read.table()** from the **utils** library.
+4. **.xls/.xlsx** files, you can use **read_xls()/read_xlsx()** from the **readxl** library.
+
 ```{r data}
 # your code goes here
+# load the data using your required libraries.
+# the libraries can be loaded at every chuck or in one chunk.
 ```
 
 ## Data Analysis
