@@ -1,7 +1,6 @@
 <html>
 <head>
   <link rel="stylesheet" href="styles.css">
-  <title>Report</title>
 </head>
 <body>
 
