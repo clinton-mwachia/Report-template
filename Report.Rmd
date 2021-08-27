@@ -67,8 +67,16 @@ To load different data formats, you will need a given library for different data
 # the libraries can be loaded at every chuck or in one chunk.
 ```
 
-## Data Analysis
+## Data Cleaning
 
-```{r data_analysis}
+Data cleaning may include: -
+
+1. Handling **NA** and **NAN** values.
+2. Handling **missing** data.
+3. Renaming the column names into appropriate names.
+4. Changing the data types into appropriate types.
+5. Formatting decimals, currencies and percentages.
+
+```{r data_cleaning}
 
 ```
