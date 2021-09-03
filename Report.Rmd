@@ -78,5 +78,19 @@ Data cleaning may include: -
 5. Formatting decimals, currencies and percentages.
 
 ```{r data_cleaning}
-
+# data cleaning code goes here
 ```
+
+## Formating
+
+1. Italicize: You can italicize text by doing this ==> *your text*.
+2. Bold: You bold text by doing this ==> **your text**.
+3. Underscore: You can underscore text by doing this ==> ***your text***.
+4. Superscript: 2^20^.
+5. Subscript: 2~20~.
+6. Strike through: ~~your word~~
+7. Equation: 
+
+$$
+    y = mx + c
+$$
