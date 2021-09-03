@@ -94,3 +94,52 @@ Data cleaning may include: -
 $$
     y = mx + c
 $$
+
+8. Block Quote: You can a block quote using: 
+
+> my answer. (this should be in a new line).
+
+9. Lists
+
+* item one.
+* item two.
+
+    + sub item two.
+    + sub item two.
+    
+10. Simple Table.
+
+Header | Header
+----- | -------------
+Cell | Cell
+Cell | Cell
+## Graphs
+
+**Figure \@ref(fig:fig1)** below shows the plot and i can write my observation here. Adding **message** in the code chunk options prevents printing of any information resulting from the plot.
+
+In case you want to adjust the **height** and **width** of the output figure, you can use the code chunk options, ***out.width*** and ***out.height*** for the width and height respectively.
+
+NOTE: Try removing the **message** option to see the difference.
+
+```{r fig1, fig.cap="plot 1", message=FALSE, out.height="400px", out.width="400px"}
+ggplot(mpg, aes(x=class, y=hwy)) + 
+    geom_boxplot(
+        
+        # custom boxes
+        color="blue",
+        fill="blue",
+        alpha=0.2,
+        
+        # Notch?
+        notch=TRUE,
+        notchwidth = 0.8,
+        
+        # custom outliers
+        outlier.colour="red",
+        outlier.fill="red",
+        outlier.size=3
+    
+    ) +
+  theme_bw()
+```
+
