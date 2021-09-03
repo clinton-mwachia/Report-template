@@ -107,12 +107,7 @@ $$
     + sub item two.
     + sub item two.
     
-10. Simple Table.
 
-Header | Header
------ | -------------
-Cell | Cell
-Cell | Cell
 ## Graphs
 
 **Figure \@ref(fig:fig1)** below shows the plot and i can write my observation here. Adding **message** in the code chunk options prevents printing of any information resulting from the plot.
@@ -143,3 +138,11 @@ ggplot(mpg, aes(x=class, y=hwy)) +
   theme_bw()
 ```
 
+## Tables
+
+A simple table.
+
+Header | Header
+----- | -------------
+Cell | Cell
+Cell | Cell
