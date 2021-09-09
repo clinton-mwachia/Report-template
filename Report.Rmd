@@ -164,3 +164,16 @@ my_object <- mtcars %>%
 kable(my_object, caption = "simple table", format = 'simple')
 ```
 
+### Pipe Tables.
+
+**Table \@ref(tab:table1)** is a pipe table and it is referenced in this paragraph. You can include you observations here.
+
+```{r table2}
+# filtering the data
+my_object <- mtcars %>%
+  select(c(1:4)) %>%
+  head(10)
+
+# making the table
+kable(my_object, caption = "pipe table", format = 'pipe')
+```
