@@ -43,6 +43,7 @@ The questions are a reflection of the main aim of the analysis.
 ```{r lib, message=FALSE, warning=FALSE}
 # load your libraries
 library(tidyverse)
+library(knitr)
 ```
 
 
@@ -146,3 +147,13 @@ Header | Header
 ----- | -------------
 Cell | Cell
 Cell | Cell
+
+Tables in R can be made using the **knitr** package and referenced as illustrated below. **kable** offers various formats of generating tables including *HTML*, *latex* and  *simple*.
+
+### Simple Tables.
+
+```{r table1}
+
+#kable(an_r_object, caption = "this is my caption")
+```
+
