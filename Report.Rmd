@@ -152,8 +152,15 @@ Tables in R can be made using the **knitr** package and referenced as illustrate
 
 ### Simple Tables.
 
-```{r table1}
+**Table \@ref(tab:table1)** is a simple table and it is referenced in this paragraph. You can include you observations here.
 
-#kable(an_r_object, caption = "this is my caption")
+```{r table1}
+# filtering the data
+my_object <- mtcars %>%
+  select(c(1:4)) %>%
+  head(10)
+
+# making the table
+kable(my_object, caption = "simple table", format = 'simple')
 ```
 
