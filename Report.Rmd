@@ -178,3 +178,16 @@ my_object <- mtcars %>%
 kable(my_object, caption = "pipe table", format = 'pipe')
 ```
 
+## Math expressions
+
+Math expressions can be included in a report using **$$** as shown below.
+
+$$
+  f(x) = {n \choose x} p^{x}(1-p)^{n-x}
+$$
+
+> Equation 2
+
+$$
+  x = \frac{-b \pm \sqrt{b^{2} - 4ac}}{2a}
+$$
