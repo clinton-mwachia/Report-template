@@ -1,7 +1,7 @@
 ---
 title: "Data Analysis Report Template"
 author: "clinton Moshe Mwachia"
-date: "8/17/2021"
+date: '`r Sys.Date()`'
 output: 
   bookdown::pdf_document2:
     toc: true
