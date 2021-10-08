@@ -195,11 +195,17 @@ $$
 
 ## Other Programming Languages
 
+### Python
 
 ```{python}
 print('hello python' )
 ```
 
+## Adding an image
 
-## References
+```{r , out.width="20%",out.height="20%",fig.align='center', fig.cap='my image'}
+knitr::include_graphics('images/image.JPG')
+```
+
+## References           
 
