@@ -191,3 +191,15 @@ $$
 $$
   x = \frac{-b \pm \sqrt{b^{2} - 4ac}}{2a}
 $$
+
+
+## Other Programming Languages
+
+
+```{python}
+print('hello python' )
+```
+
+
+## References
+
